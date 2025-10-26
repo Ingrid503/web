@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.transparent-image {
+    
+    object-fit: cover;
+    opacity: 0.7; /* Hace la imagen semi-transparente */
+    transition: opacity 0.3s ease;
+    width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.transparent-image:hover {
+    opacity: 1; /* Opacidad completa al pasar el ratón por encima */
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+header {
+    background-color: #c999ba;
+    padding: 30px 50px; /* Este es el padding del header */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.transparent-image {
+    /* --- CÓDIGO AÑADIDO / MODIFICADO --- */
+    /* 1. Definir un tamaño para el elemento (la imagen) dentro del header. */
+    /* Aquí estoy usando un valor fijo como ejemplo: */
+    width: 80px;  /* Ancho de la imagen (ajusta este valor) */
+    height: 80px; /* Alto de la imagen (ajusta este valor) */
+
+    /* 2. Asegurar que la imagen se ajuste a las dimensiones definidas arriba. */
+    object-fit: cover;
+    
+    /* 3. El resto de tus estilos */
+    opacity: 0.7; 
+    transition: opacity 0.3s ease;
+}
+
+.transparent-image:hover {
+    opacity: 1;
+}
+
+div {
+    text-align: center;
+}
+
+.imagenes{
+    display: flex;
+  justify-content: center; /* Centra las imágenes horizontalmente */
+  align-items: center;     /* Alinea verticalmente */
+  gap: 40px;               /* Espacio entre las imágenes */
+  margin-top: 40px;
+}
+
+/* Cada caja (imagen + texto) */
+.caja {
+  text-align: center;
+}
+/* Imagen circular */
+.foto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #004aad;
+  transition: all 0.3s ease;
+}
+/* Efecto hover */
+.foto:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);}
+
+  /* Texto debajo de cada imagen */
+.caja p {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+
+

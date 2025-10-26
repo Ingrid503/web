@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+.imagen-redonda {
+  width: 150px;           /* tamaño de la imagen */
+  height: 150px;
+  border-radius: 50%;     /* hace la imagen circular */
+  object-fit: cover;      /* evita deformaciones */
+  border: 3px solid #fff; /* opcional: agrega borde */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* opcional: sombra */
+}
+
+.imagenes{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+
+}
+
+.texto1{
+    font-size: 23px;
+    font-weight: bold;
+    color: black;
+}
+
+.principio{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(177, 32, 32);
+}
+
+
+
